@@ -1,2 +1,3 @@
-# zanzocam-control-panel
+# ZanzoCam - Remote Control Panel
+
 Remote control panel for ZanzoCam
