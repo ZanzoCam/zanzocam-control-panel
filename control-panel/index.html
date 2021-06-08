@@ -334,7 +334,7 @@
     }
     function populateLogoField(logo){
         var position = logo.parentNode.dataset.position;
-        var source = logo.src;
+        var source = decodeURIComponent(logo.src);
         var name = source.split("/").pop();
         document.getElementById("overlays__"+position+"__path").value = name;
         document.getElementById("overlays__"+position+"__path_current").innerHTML = name;
